@@ -5,5 +5,5 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   // github pages 전용
-  // base: "nemgr"
+  base: "/nemgr",
 });
