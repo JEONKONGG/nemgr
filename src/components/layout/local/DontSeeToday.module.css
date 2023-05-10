@@ -1,0 +1,33 @@
+.dont_see_today_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100vw;
+  min-height: 100vh;
+  background: url("/public/images/dont-see-today-background.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/*
+    text-animation
+*/
+#index-text-animation {
+  position: absolute;
+  margin: auto;
+  width: 100vw;
+  height: 80pt;
+  top: 0;
+  bottom: 0;
+  filter: url(#threshold) blur(0.6px);
+}
+
+#text1,
+#text2 {
+  position: absolute;
+  width: 100%;
+  display: inline-block;
+  font-size: 80pt;
+  text-align: center;
+  user-select: none;
+}

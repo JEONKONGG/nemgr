@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:900&display=swap");
+:root {
+  --header-color: #fafafa;
+  --common-color: #162938;
+  --box-shadow-color: rgba(0, 0, 0, 0.5);
+  --border-grey-color: rgba(255, 255, 255, 0.5);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url("/public/images/background.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
