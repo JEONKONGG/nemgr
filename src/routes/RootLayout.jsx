@@ -2,7 +2,7 @@ import { Outlet } from "react-router-dom";
 import { useState, useEffect } from "react";
 
 import Header from "../components/layout/Header";
-import DontSeeToday from "../components/layout/local/DontSeeToday";
+import DontSeeToday from "../components/localstorage/DontSeeToday";
 
 function RootLayout() {
   // 기본 세팅 값은 false
